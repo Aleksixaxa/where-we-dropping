@@ -15,7 +15,7 @@ function randomMap () {
                 'Steamy Stacks', 'Dirty Docks', 'Retail Row', 'Catty Corner', 
                 'Lazy Lake', "Hunter's Haven", 'Misty Meadows', 'Slurpy Swamp', 
                 'Holly Hedges', 'Weeping Woods', 'Sweaty Sands', 'Coral Castle', 
-                'Pleasent Park', 'Colossal Coliseum', 'Salty Towers'];
+                'Pleasant Park', 'Colossal Coliseum', 'Salty Towers'];
      let randomMap = mapList[Math.floor(Math.random()*mapList.length)];
      
      if (randomMap === 'Stealty Stronghold') {
@@ -46,7 +46,7 @@ function randomMap () {
         map.src = 'https://i.imgur.com/VfA8mBP.png'
     } else if (randomMap == 'Coral Castle') {
         map.src = 'https://i.imgur.com/1Riazjt.png'
-    } else if (randomMap == 'Pleasent Park') {
+    } else if (randomMap == 'Pleasant Park') {
         map.src = 'https://i.imgur.com/nSZPFte.png'
     } else if (randomMap == 'Colossal Coliseum') {
         map.src = 'https://i.imgur.com/eZSx1WD.png'
