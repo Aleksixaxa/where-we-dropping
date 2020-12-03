@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Quicksand', sans-serif;;
+}
+
+body {
+    background: url('wp.jpg')
+}
+.center-wrapper {
+
+    background-color: rgba(96, 166, 247, 0.651);
+    padding: 2em;
+
+
+    .top-boxes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1em;
+
+
+
+        .random-name{
+            font-size: 4.5em;
+            border: 2px solid white;
+            padding: .2em;
+
+        }
+        #refresh {
+            width: 50px;
+            height: 50px;
+            margin-right: 40px;
+            transition: 300ms ease-in-out;
+        }
+        #refresh:hover {
+            transform: rotateZ(50deg);
+        }
+
+    }
+}
+.map {
+    display: flex;
+    justify-content: center;
+
+    #map {
+        width: 90vh;
+    }
+}
+
+
+@media only screen and (max-width: 900px)  {
+    .random-name {
+        padding: 0.1 !important;
+        font-size: 3em !important;
+    }
+
+    #map {
+        width: 70vh !important;
+    }
+ 
+}
+@media only screen and (max-width: 600px) {
+    .random-name {
+        padding: 0.1 !important;
+        font-size: 2em !important;
+    }
+
+    #map {
+        width: 40vh !important;
+    }
+    #refresh {
+        width: 30px !important;
+        height: 30px !important;
+    }
+ 
+}

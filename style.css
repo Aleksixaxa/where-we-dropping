@@ -1,0 +1,87 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background: url("wp.jpg");
+}
+
+.center-wrapper {
+  background-color: rgba(96, 166, 247, 0.651);
+  padding: 2em;
+}
+
+.center-wrapper .top-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em;
+}
+
+.center-wrapper .top-boxes .random-name {
+  font-size: 4.5em;
+  border: 2px solid white;
+  padding: .2em;
+}
+
+.center-wrapper .top-boxes #refresh {
+  width: 50px;
+  height: 50px;
+  margin-right: 40px;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.center-wrapper .top-boxes #refresh:hover {
+  -webkit-transform: rotateZ(50deg);
+          transform: rotateZ(50deg);
+}
+
+.map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.map #map {
+  width: 90vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .random-name {
+    padding: 0.1 !important;
+    font-size: 3em !important;
+  }
+  #map {
+    width: 70vh !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .random-name {
+    padding: 0.1 !important;
+    font-size: 2em !important;
+  }
+  #map {
+    width: 40vh !important;
+  }
+  #refresh {
+    width: 30px !important;
+    height: 30px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
