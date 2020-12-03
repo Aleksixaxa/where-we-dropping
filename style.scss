@@ -48,6 +48,15 @@ body {
     #map {
         width: 90vh;
     }
+    .wrapper {
+        position: relative;
+    }
+    #dot {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        display: none;
+    }
 }
 
 
@@ -69,7 +78,7 @@ body {
     }
 
     #map {
-        width: 40vh !important;
+        width: 60vh !important;
     }
     #refresh {
         width: 30px !important;

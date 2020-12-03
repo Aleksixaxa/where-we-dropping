@@ -61,6 +61,17 @@ body {
   width: 90vh;
 }
 
+.map .wrapper {
+  position: relative;
+}
+
+.map #dot {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  display: none;
+}
+
 @media (max-width: 900px) {
   .random-name {
     padding: 0.1 !important;
@@ -77,7 +88,7 @@ body {
     font-size: 2em !important;
   }
   #map {
-    width: 40vh !important;
+    width: 60vh !important;
   }
   #refresh {
     width: 30px !important;
