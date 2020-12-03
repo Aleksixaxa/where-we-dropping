@@ -19,39 +19,39 @@ function randomMap () {
      let randomMap = mapList[Math.floor(Math.random()*mapList.length)];
      
      if (randomMap === 'Stealty Stronghold') {
-        map.src = 'Maps/stealthy-stronghold.png'
+        map.src = 'https://i.imgur.com/rWHugEZ.png'
     } else if (randomMap == 'Craggy Cliffs') {
-        map.src = 'Maps/craggy-cliffs.png'
+        map.src = 'https://i.imgur.com/UH2IxNk.png'
     } else if (randomMap == 'Steamy Stacks') {
-        map.src = 'Maps/steamy-stacks' + '.png'
+        map.src = 'https://i.imgur.com/y5siwKY.png'
     } else if (randomMap == 'Dirty Docks') {
-        map.src = 'Maps/dirty-docks' + '.png'
+        map.src = 'https://i.imgur.com/8qu6QMl.png'
     } else if (randomMap == 'Retail Row') {
-        map.src = 'Maps/retail-row' + '.png'
+        map.src = 'https://i.imgur.com/TqYNzsJ.png'
     } else if (randomMap == 'Catty Corner') {
-        map.src = 'Maps/catty-corner' + '.png'
+        map.src = 'https://i.imgur.com/3KrJXDb.png'
     } else if (randomMap == 'Lazy Lake') {
-        map.src = 'Maps/lazy-lake' + '.png'
+        map.src = 'https://i.imgur.com/oyjYF8R.png'
     } else if (randomMap == "Hunter's Haven") {
-        map.src = 'Maps/hunters-rave' + '.png'
+        map.src = 'https://i.imgur.com/dFcGwzt.png'
     } else if (randomMap == 'Misty Meadows') {
-        map.src = 'Maps/misty-meadows' + '.png'
+        map.src = 'https://i.imgur.com/krJeFSN.png'
     } else if (randomMap == 'Slurpy Swamp') {
-        map.src = 'Maps/slurpy-swamp' + '.png'
+        map.src = 'https://i.imgur.com/FRbWiaz.png'
     } else if (randomMap == 'Holly Hedges') {
-        map.src = 'Maps/holly-hedges' + '.png'
+        map.src = 'https://i.imgur.com/09iGwGG.png'
     } else if (randomMap == 'Weeping Woods') {
-        map.src = 'Maps/weeping-woods' + '.png'
+        map.src = 'https://i.imgur.com/LgYOZvj.png'
     }else if (randomMap == 'Sweaty Sands') {
-        map.src = 'Maps/sweaty-sands' + '.png'
+        map.src = 'https://i.imgur.com/VfA8mBP.png'
     } else if (randomMap == 'Coral Castle') {
-        map.src = 'Maps/coral-castle' + '.png'
+        map.src = 'https://i.imgur.com/1Riazjt.png'
     } else if (randomMap == 'Pleasent Park') {
-        map.src = 'Maps/pleasent-park' + '.png'
+        map.src = 'https://i.imgur.com/nSZPFte.png'
     } else if (randomMap == 'Colossal Coliseum') {
-        map.src = 'Maps/colossal-coliseum' + '.png'
+        map.src = 'https://i.imgur.com/eZSx1WD.png'
     } else if (randomMap == 'Salty Towers') {
-        map.src = 'Maps/salty-towers' + '.png'
+        map.src = 'https://i.imgur.com/E58RIbe.jpg'
     }
      area.innerHTML = randomMap
     console.log(randomMap) //debugging
