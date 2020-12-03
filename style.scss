@@ -20,6 +20,7 @@ body {
         justify-content: space-between;
         align-items: center;
         margin: 1em;
+        flex-direction: column;
 
 
 
@@ -27,6 +28,7 @@ body {
             font-size: 4.5em;
             border: 2px solid white;
             padding: .2em;
+            font-weight: 700;
 
         }
         #refresh {
@@ -45,18 +47,20 @@ body {
     display: flex;
     justify-content: center;
 
+
     #map {
         width: 90vh;
-    }
+        box-shadow: 10px 10px 10px black;   
+     }
     .wrapper {
-        position: relative;
+
     }
-    #dot {
-        position: absolute;
-        width: 15px;
-        height: 15px;
-        display: none;
-    }
+    // #dot {
+    //     position: absolute;
+    //     width: 15px;
+    //     height: 15px;
+    //     display: none;
+    // }
 }
 
 
