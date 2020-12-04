@@ -60,3 +60,8 @@ function randomMap () {
 }
 // randomMap()
 refButton.addEventListener('click', randomMap)
+
+refButton.addEventListener('click', function (e)  {
+    refButton.style.transform = 'rotateZ(360deg)';
+});
+
